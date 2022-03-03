@@ -9,3 +9,5 @@ call plug#end()
 lua require('config')
 
 colorscheme molokai
+
+autocmd VimEnter * NERDTree
